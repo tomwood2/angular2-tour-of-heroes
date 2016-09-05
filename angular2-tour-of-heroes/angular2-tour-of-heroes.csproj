@@ -68,6 +68,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\styles\app.component.css" />
+    <Content Include="app\styles\dashboard.component.css" />
+    <Content Include="app\styles\hero-detail.component.css" />
+    <Content Include="app\styles\heroes.component.css" />
+    <Content Include="app\views\app.component.html" />
+    <Content Include="app\views\dashboard.component.html" />
+    <Content Include="app\views\hero-detail.component.html" />
+    <Content Include="app\views\heroes.component.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
@@ -90,6 +98,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\app.routing.ts" />
+    <TypeScriptCompile Include="app\dashboard.component.ts" />
+    <TypeScriptCompile Include="app\heroes.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\hero.service.ts" />
     <TypeScriptCompile Include="app\hero.ts" />
